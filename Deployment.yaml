@@ -20,7 +20,7 @@ spec:
         kubernetes.io/os: linux
         kubernetes.io/arch: amd64
       containers:
-      - image: gcr.io/searce-playground-v1/sanket-mng-prom-image:v1
+      - image: gcr.io/<your project name>/sanket-mng-prom-image:v1
         name: prom-example
         ports:
         - name: metrics
